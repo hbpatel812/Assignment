@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8"> 
+        <title>Quiz APP</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="quizStyle.css" type="text/css">
+    </head>
+    <body>
+      <div id="startBox" class="container resultBox">
+            <div id="startTitle"><b>Quiz Time</b></div><br>
+            <button type="submit" id="start" class="restart-btn" onclick="start();"><h3>Start Quiz</h3></button>
+      </div>
+     <div id="quizContainer" class="container">
+       <div class="title">Quiz</div>
+       <div id="Question" class="Question"></div>
+       <label class="option"><input type="radio" name="option" value="1" onclick="radioHandler(this);"/><span id="opt1"></span></label>
+       <label class="option"><input type="radio" name="option" value="2" onclick="radioHandler(this);" /><span id="opt2"></span></label>
+       <label class="option"><input type="radio" name="option" value="3" onclick="radioHandler(this);" /><span id="opt3"></span></label>
+       <label class="option"><input type="radio" name="option" value="4" onclick="radioHandler(this);" /><span id="opt4"></span></label>
+       <button type="submit" id="nextButton" class="nxt-btn" onclick="loadNextQuestion()" disabled>Next Question</button>
+</div>
+<div id="resultBox" class="container resultBox">
+  <div id="result" ></div><br>
+<button type="submit" id="reStart" class="restart-btn" onclick="window.location.href='index.html';"><h3>Start Again</h3></button>
+</div>
+<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript" src="quizLogic.js"></script>
+
+    </body>
+</html>
