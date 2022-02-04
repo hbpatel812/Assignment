@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name":"hardi",
+        "password":"hardi123",
+        "gender":"female",
+        "birthday":"08-12-1998",
+        "age":23,
+        "country":"India",
+        "phone":"+123456789"     
+    },
+    {
+        "id":"2",
+        "name":"himani",
+        "password":"himani123",
+        "gender":"female",
+        "birthday":"19-11-1997",
+        "age":24,
+        "country":"India",
+        "phone":"+1234630789"
+    }
+]
