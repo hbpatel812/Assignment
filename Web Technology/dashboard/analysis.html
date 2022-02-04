@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style type="text/css">
+    *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  color: rgb(17, 12, 12);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: rgb(8, 8, 8);
+}
+
+.center { text-align: center; }
+
+.container {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(10vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid rgb(14, 13, 13);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media (max-width: 600px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}
+    </style>
+    </head>
+    <body>
+   
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orders.html">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="analysis.html">Analysis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="settings.html">Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign-up / Login</a>
+            </li>
+          </ul>
+
+            <div class="container">
+              <h1 class="center">Analysis of Products</h1>
+              
+              <article class="episode">
+                <div class="episode__number">00</div>
+                <div class="episode__content">
+                  <div class="title">Prologue</div>
+                  <div class="story">
+                    <p>Product analysis involves examining product features, costs, availability, quality, appearance and other aspects. Product analysis is conducted by potential buyers, by product managers attempting to understand competitors and by third party reviewers.</p>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="episode">
+                <div class="episode__number">01</div>
+                <div class="episode__content">
+                  <div class="title">Episode 1</div>
+                  <div class="story">
+                    <p>"Purpose of Analysis"</p>
+                    <p>What does product analysis mean? Product analysis breaks down the product from end to end analyzing everything from components, functions, technology, costs and demands to marketing materials, websites and sales approach. What the product does, should match what the company claims it does.  Analysis on cost/quality ratios, alternative designs along with competition come into play to determine whether the product is cost effective while meeting the customer requirements. It is highly beneficial If the company can make small tweaks to the design and maintain the quality of the product while reducing their cost. This is an extensive process, but the results can aid the business in manufacturing, QA, logistics, and sales.</p>
+                    <p>Product analysis is an excellent task to complete prior to submitting a product design and/or development technology for a patent. You will want to determine which patent is appropriate for a product prior to submission; design, utility or plant. Although a design patent may work for the appearance of your product it may not protect the functionality that would be a covered by a utility patent. For more information on patents, review our article on patents 101</p>
+                 </div>
+                </div>
+              </article>
+              
+              <article class="episode">
+                <div class="episode__number">02</div>
+                <div class="episode__content">
+                  <div class="title">Episode 2</div>
+                  <div class="story">
+                    <p>"How to write Product Analysis"</p>
+                    <p>The first step to writing a product analysis is determining the end goal. Looking to simply analyze the quality or functionality of one product versus another? Trying to implement or improve on a design? Looking to decrease costs from the current design? Understanding the message relayed to see if it matches what the product does? Once the goal is determined for this product analysis one can start to form a set of questions to obtain the appropriate answers. If unsure of where to start, there are various product analysis templates and product analysis examples online to begin. After obtaining these answers,  document the results in a product analysis report in order to update, change or slightly alter your current product and or message.</p>
+                    <p>On the other hand, if you are looking to submit pieces of your product analysis to fulfill some of the requirements for a patent, our subject matter experts can assist you to conduct a patent search first and also provide additional details on how to build your IP Portfolio for the future. Our turn-key service provides intellectual property expertise and management support.</p>
+                    </div>
+                </div>
+              </article>
+              
+              <article class="episode">
+                <div class="episode__number">03</div>
+                <div class="episode__content">
+                  <div class="title">Episode 3</div>
+                  <div class="story">
+                    <p>"Product Analysis Example"</p>
+                    <p>What is the material of the t-shirt? The quality? And what occurs with that material after it is washed.</p>
+                      <p>What colors are on the t-shirt? Will the colors bleed? If printed on, is the print ink of higher quality or not?</p>
+                      <p>Where is the t-shirt manufactured and is it easy to manufacture the product there?</p>
+                       <p>What are the capabilities of the manufacturer for future orders?</p>
+                        <p>What is the minimum order quantity (MOQ)?</p>
+                   <p>Is the manufacturer certified and audited for proper compliance?</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+</body>
+</html>
